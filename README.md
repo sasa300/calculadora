@@ -16,7 +16,7 @@ public class Calculadora {
 
     public double dividir(double a, double b) {
         if (b == 0) {
-            throw new ArithmeticException("teste para divisao permitido.");
+            throw new ArithmeticException("sessao apresentacao.");
         }
         return a / b;
     }
