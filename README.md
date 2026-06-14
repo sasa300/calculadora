@@ -44,7 +44,7 @@ public class CalculadoraTest {
             calc.dividir(5.0, 0.0);
         }, "Deveria lançar ArithmeticException ao dividir por zero");
 
-        assertEquals("Divisão por zero não é permitida.", exception.getMessage());
+        assertEquals("Divisão por zero não e aceito.", exception.getMessage());
     }
 }
 
